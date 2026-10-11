@@ -14,7 +14,8 @@
     ],
     "homepage": "https://nyzz.my.id",
     "repository": {
-        "url": "https://nyzz.my.id"
+        "type": "git",
+        "url": "git+https://github.com/nyzzpedia/baileys.git"
     },
     "license": "MIT",
     "author": "Nyzzpedia",
@@ -54,11 +55,11 @@
         "ws": "^8.13.0"
     },
     "peerDependencies": {
+        "fluent-ffmpeg": "*",
         "jimp": "^1.6.1",
         "link-preview-js": "^3.0.0",
-        "sharp": "*",
         "qrcode-terminal": "^0.12.0",
-        "fluent-ffmpeg": "*"
+        "sharp": "*"
     },
     "peerDependenciesMeta": {
         "jimp": {
